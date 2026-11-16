@@ -1,0 +1,23 @@
+Shapiro-Wilk (residuos): W = 0.7838, p = 3.573e-10
+Levene (9 puntos de diseno): estadistico = 6.0411, p = 4.444e-06
+
+--- n = 5: ANOVA de una via entre niveles, p = 1 (NO significativo) ---
+Los 30 costos son identicos: no hay variabilidad entre niveles.
+--- n = 10: ANOVA de una via entre niveles, p = 0.3538 (NO significativo) ---
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj   lower  upper  reject
+---------------------------------------------------
+  Alto   Bajo  -1.0615  0.321 -2.8523 0.7293  False
+  Alto  Medio  -0.5308 0.7452 -2.3216   1.26  False
+  Bajo  Medio   0.5308 0.7452   -1.26 2.3216  False
+---------------------------------------------------
+--- n = 15: ANOVA de una via entre niveles, p = 0.4261 (NO significativo) ---
+Multiple Comparison of Means - Tukey HSD, FWER=0.05 
+====================================================
+group1 group2 meandiff p-adj   lower   upper  reject
+----------------------------------------------------
+  Alto   Bajo  -0.4624 0.9852  -7.4278 6.5029  False
+  Alto  Medio   -3.435 0.4504 -10.4004 3.5304  False
+  Bajo  Medio  -2.9726 0.5476  -9.9379 3.9928  False
+----------------------------------------------------
